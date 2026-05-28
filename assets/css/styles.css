@@ -290,17 +290,17 @@ img {
   border-radius: 0.5rem;
   z-index: var(--z-back);
 }
-.skills__html {
-  width: 95%;
-}
-.skills__css {
+.skills__cv {
   width: 85%;
 }
-.skills__js {
-  width: 65%;
+.skills__nlp {
+  width: 80%;
 }
-.skills__ux {
-  width: 85%;
+.skills__rl {
+  width: 90%;
+}
+.skills__GenAI {
+  width: 90%;
 }
 .skills__img {
   border-radius: 0.5rem;

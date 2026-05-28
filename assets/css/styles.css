@@ -208,10 +208,18 @@ img {
   color: var(--first-color);
 }
 .home__img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__profile-img {
+  width: 320px;
+  height: 380px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 32px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
 }
 .home__blob {
   fill: var(--first-color);
